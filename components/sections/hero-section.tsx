@@ -94,8 +94,10 @@ export function HeroSection() {
                 size="lg"
                 className="group border-2 border-zinc-300 dark:border-zinc-600 hover:border-blue-500 dark:hover:border-blue-400 rounded-xl px-8 py-6 text-lg font-semibold transition-all duration-300"
               >
+                <Link href="#projects" className="flex items-center">
                 <Download className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
                 View My Work
+                </Link>
               </Button>
             </div>
 
@@ -151,7 +153,7 @@ export function HeroSection() {
               {/* Main Image Container with Lazy Loading */}
               <div className="relative w-full h-full rounded-3xl overflow-hidden border-4 border-white dark:border-zinc-700 shadow-2xl bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900">
                 <LazyImage
-                  src="/placeholder.svg?height=384&width=384"
+                  src="/images/suhas_img.jpg"
                   alt="Suhas Dhawale - Full Stack Developer"
                   width={384}
                   height={384}
