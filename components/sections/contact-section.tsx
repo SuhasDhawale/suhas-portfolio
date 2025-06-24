@@ -101,21 +101,37 @@ export function ContactSection() {
     setIsSubmitting(true)
 
     // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false)
-      alert("Thank you! I'll get back to you within 24 hours.")
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        projectType: "",
-        budget: "",
-        timeline: "",
-        message: "",
-      })
-    }, 2000)
-  }
+   try {
+  const response = await fetch("/api/contact", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(formData),
+  })
 
+  const result = await response.json()
+
+  if (!response.ok) {
+    alert(result.error || "Failed to send message. Please try again.")
+  } else {
+    alert("✅ Message sent successfully! Check your email for confirmation.")
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      projectType: "",
+      budget: "",
+      timeline: "",
+      message: "",
+    })
+  }
+} catch (error) {
+  alert("Something went wrong. Please try again.")
+  console.error("Email error:", error)
+} finally {
+  setIsSubmitting(false)
+}
+
+  }
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
       ...formData,
@@ -320,6 +336,7 @@ export function ContactSection() {
                         className="w-full px-3 py-2 border border-zinc-300 dark:border-zinc-600 rounded-lg bg-white dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100"
                       >
                         <option value="">Select budget range</option>
+                        <option value="₹5,000 - ₹15,000">₹15,000 - ₹25,000</option>
                         <option value="₹15,000 - ₹25,000">₹15,000 - ₹25,000</option>
                         <option value="₹25,000 - ₹50,000">₹25,000 - ₹50,000</option>
                         <option value="₹50,000 - ₹1,00,000">₹50,000 - ₹1,00,000</option>
