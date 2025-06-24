@@ -105,9 +105,7 @@ export function Footer() {
 
         <div className="border-t border-zinc-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-zinc-400 text-base">© {new Date().getFullYear()} Suhas Dhawale. All rights reserved.</p>
-          <p className="text-zinc-400 text-base flex items-center mt-4 md:mt-0">
-            Made with <Heart className="h-4 w-4 mx-2 text-red-400" /> using Next.js & Tailwind CSS
-          </p>
+          
         </div>
       </div>
     </footer>
