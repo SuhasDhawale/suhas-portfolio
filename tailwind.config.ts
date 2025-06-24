@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+import typography from "@tailwindcss/typography"
 
 const config: Config = {
   content: [
@@ -12,7 +13,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         inter: ["var(--font-inter)", "sans-serif"],
-        geist: ["var(--font-geist)", "sans-serif"],
+        sora: ["var(--font-sora)", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -79,7 +80,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [typography],
 }
 
 export default config

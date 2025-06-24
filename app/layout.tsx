@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Geist } from "next/font/google"
+import { Inter, Sora } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Navbar } from "@/components/navbar"
@@ -14,9 +14,9 @@ const inter = Inter({
   display: "swap",
 })
 
-const geist = Geist({
+const sora = Sora({
   subsets: ["latin"],
-  variable: "--font-geist",
+  variable: "--font-sora",
   display: "swap",
 })
 
@@ -40,17 +40,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} ${geist.variable} font-inter antialiased`}>
+      <body className={`${inter.variable} ${sora.variable} font-sora antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange={false}>
           <div className="relative min-h-screen bg-white dark:bg-zinc-950">
-            {/* Premium gradient overlay */}
             <div className="fixed inset-0 bg-gradient-to-br from-zinc-50 via-white to-zinc-100 dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950 pointer-events-none" />
             <div className="relative z-10">
               <Navbar />
               <main className="relative">{children}</main>
               <Footer />
               <BackToTop />
-              {/* Intelligent AI Chat Widget */}
               <IntelligentAIChatWidget />
             </div>
           </div>
