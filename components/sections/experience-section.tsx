@@ -28,7 +28,7 @@ const education = {
   degree: "B.Tech in Computer Science Engineering",
   institution: "G H Raisoni College of Engineering and Management, Nagpur",
   duration: "2021 - 2025",
-  cgpa: "7.83/10",
+  cgpa: "8/10",
   achievements: [
     "Solved 100+ DSA problems on LeetCode, HackerRank & GeeksforGeeks",
     "Participated in college hackathons and coding competitions",
