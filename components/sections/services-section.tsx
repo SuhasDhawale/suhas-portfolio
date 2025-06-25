@@ -88,13 +88,13 @@ const services = [
 const testimonials = [
   {
     quote: "Suhas transformed our online presence completely. Our website now generates 3x more leads!",
-    author: "Rajesh Kumar",
-    company: "TechStart Solutions",
+    author: "Dinesh Kejariwal",
+    company: "CEO, Restin Industries",
   },
   {
-    quote: "Professional, fast, and delivered exactly what we needed. Highly recommend!",
-    author: "Priya Sharma",
-    company: "Digital Marketing Pro",
+    quote: "Professional, fast and delivered exactly what we needed. Highly recommend!",
+    author: "Engr. Pradip Bhosale",
+    company: "Founder, Pradip Electrical Engineers & Contractors",
   },
 ]
 
@@ -169,7 +169,7 @@ export function ServicesSection() {
                   {/* CTA Button */}
                   <div className="pt-4 border-t border-zinc-200 dark:border-zinc-700 mt-4">
                     <Button className="w-full group bg-zinc-900 hover:bg-zinc-800 dark:bg-zinc-100 dark:hover:bg-zinc-200 text-white dark:text-zinc-900">
-                      Get Started
+                      <Link href="#contact">Get Started</Link>
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </div>
