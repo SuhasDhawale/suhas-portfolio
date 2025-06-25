@@ -336,7 +336,7 @@ export function ProjectsSection() {
               <Link href="#contact">Start Your Project</Link>
             </Button>
             <Button variant="outline" size="lg" className="px-8 py-4">
-              Schedule a Call
+              <Link href="#contact">Schedule a Call</Link>
             </Button>
           </div>
         </LazySection>

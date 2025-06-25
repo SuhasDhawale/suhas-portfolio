@@ -413,6 +413,7 @@ export function ContactSection() {
         >
           <h3 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100 mb-4">Prefer to Talk Directly?</h3>
           <p className="text-zinc-600 dark:text-zinc-400 mb-6">
+            
             Schedule a free 30-minute consultation call to discuss your project in detail.
           </p>
           <Button size="lg" variant="outline" className="px-8 py-4">
