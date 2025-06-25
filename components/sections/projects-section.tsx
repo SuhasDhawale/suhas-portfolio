@@ -11,72 +11,34 @@ import { LazyImage, LazySection } from "@/components/lazy-image"
 
 const projects = [
   {
-    title: "AI-Powered SaaS Platform",
-    subtitle: "Complete Business Solution",
-    description:
-      "Revolutionary SaaS platform featuring AI-driven video generation, image creation, music composition, and intelligent chat. Built for scalability and user engagement.",
-    image: "/placeholder.svg?height=400&width=600",
-    technologies: ["Next.js", "React", "TypeScript", "AI APIs", "Stripe", "Clerk"],
-    category: "Full-stack",
-    github: "https://github.com/SuhasDhawale",
-    demo: "#",
-    featured: true,
-    results: {
-      metric1: { value: "500+", label: "Active Users" },
-      metric2: { value: "95%", label: "User Satisfaction" },
-      metric3: { value: "40%", label: "Revenue Increase" },
-    },
-    clientQuote: "This platform transformed our business operations completely!",
-    tags: ["AI Integration", "SaaS", "Revenue Generator"],
-  },
-  {
-    title: "Smart Resume Builder",
-    subtitle: "AI-Enhanced Career Tool",
-    description:
-      "Intelligent resume builder that uses AI to optimize content, suggest improvements, and create professional resumes that get noticed by recruiters.",
-    image: "/placeholder.svg?height=400&width=600",
-    technologies: ["React", "AI APIs", "Tailwind CSS", "Node.js", "MongoDB"],
-    category: "Frontend",
-    github: "https://github.com/SuhasDhawale",
-    demo: "#",
-    featured: true,
-    results: {
-      metric1: { value: "10K+", label: "Resumes Created" },
-      metric2: { value: "85%", label: "Interview Rate" },
-      metric3: { value: "4.9/5", label: "User Rating" },
-    },
-    clientQuote: "Helped me land my dream job in just 2 weeks!",
-    tags: ["AI-Powered", "Career Tool", "High Conversion"],
-  },
-  {
     title: "Healthcare Platform",
     subtitle: "DocBot Medical Solution",
     description:
-      "Comprehensive healthcare platform connecting patients with doctors, featuring appointment booking, medical records, and telemedicine capabilities.",
-    image: "/placeholder.svg?height=400&width=600",
+      "A modern frontend website for DocBot Health Pod — a smart health kiosk delivering clinical-grade tests in under a minute. The platform highlights its features, benefits and technology to promote accessible preventive healthcare.",
+    image: "/images/docbot.png?height=400&width=600",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     category: "Frontend",
     github: "https://github.com/SuhasDhawale",
-    demo: "#",
+    demo: "https://docbot.in/",
     featured: false,
     results: {
       metric1: { value: "1000+", label: "Patients Served" },
-      metric2: { value: "50+", label: "Doctors Onboard" },
+      metric2: { value: "50+", label: "Health Parameters Tracked" },
       metric3: { value: "99%", label: "Uptime" },
     },
-    clientQuote: "Streamlined our entire medical practice!",
-    tags: ["Healthcare", "Real-time", "Secure"],
+    clientQuote: "The site clearly communicates the capabilities of the DocBot Health Pod. It’s fast, informative and designed to build trust in our healthcare innovation.",
+    tags: ["Healthcare", "Product Showcase", "Secure"],
   },
   {
     title: "E-Commerce Powerhouse",
     subtitle: "Restin Mattress Store",
     description:
-      "Full-featured e-commerce platform with advanced product catalog, smart search, secure payments, and comprehensive admin dashboard.",
-    image: "/placeholder.svg?height=400&width=600",
+      "Full-featured e-commerce platform with advanced product catalog, smart search, secure payments and comprehensive admin dashboard.",
+    image: "/images/restin.png?height=400&width=600",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Laravel", "PHP", "MySQL"],
     category: "Full-stack",
     github: "https://github.com/SuhasDhawale",
-    demo: "#",
+    demo: "https://sharda.abvideopro.com/",
     featured: false,
     results: {
       metric1: { value: "300%", label: "Sales Increase" },
@@ -85,6 +47,45 @@ const projects = [
     },
     clientQuote: "Our online sales tripled within 3 months!",
     tags: ["E-commerce", "High Performance", "Sales Booster"],
+  },
+  {
+    title: "AI-Powered SaaS Platform",
+    subtitle: "Complete Business Solution",
+    description:
+      "Revolutionary SaaS platform featuring AI-driven video generation, image creation, music composition and intelligent chat. Built for scalability and user engagement.",
+    image: "/images/ai-saas1.jpg?height=400&width=600",
+    technologies: ["Next.js", "React", "TypeScript", "AI APIs", "Stripe", "Clerk"],
+    category: "Full-stack",
+    github: "https://github.com/SuhasDhawale/Fusion-AI",
+    demo: "https://drive.google.com/file/d/1mj54jMZmJ8eu17ZVh69MsDKbDkmXZVj1/view",
+    featured: true,
+    results: {
+      metric1: { value: "4+", label: "AI Tools Integrated" },
+      metric2: { value: "100%", label: "Responsive UI/UX" },
+      metric3: { value: "10/10", label: "Scalability Score (Tested)" },
+    },
+    clientQuote:
+      "This project pushed my technical and creative limits — from multi-model AI integration to secure SaaS architecture.",
+    tags: ["AI Tools", "Full-stack SaaS", "Creative Automation"],
+  },
+  {
+    title: "Smart Resume Builder",
+    subtitle: "AI-Enhanced Career Tool",
+    description:
+      "Intelligent resume builder that uses AI to optimize content, suggest improvements and create professional resumes that get noticed by recruiters.",
+    image: "/images/ai-resume1.png?height=400&width=600",
+    technologies: ["React", "AI APIs", "Tailwind CSS", "Node.js", "MongoDB"],
+    category: "Frontend",
+    github: "https://github.com/SuhasDhawale/Ai-Resume-Builder",
+    demo: "https://airesumebuilder-suhas.netlify.app/",
+    featured: true,
+    results: {
+      metric1: { value: "100+", label: "Resumes Created" },
+      metric2: { value: "85%", label: "Interview Rate" },
+      metric3: { value: "4.9/5", label: "User Rating" },
+    },
+    clientQuote: "This project helped me learn to build scalable AI tools and solve real-world problems effectively.",
+    tags: ["AI-Powered", "Career Tool", "High Conversion"],
   },
 ]
 
