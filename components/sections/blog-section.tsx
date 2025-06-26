@@ -244,10 +244,10 @@ export function BlogSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white px-8 py-4">
-                Subscribe to Newsletter
+                <Link href="#blog">Subscribe to Newsletter</Link> 
               </Button>
               <Button variant="outline" size="lg" className="px-8 py-4">
-                Follow on LinkedIn
+                <Link href="https://www.linkedin.com/in/suhasdhawale" target="_blank">Follow on LinkedIn</Link>
               </Button>
             </div>
           </div>
