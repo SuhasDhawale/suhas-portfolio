@@ -337,7 +337,7 @@ export function ContactSection() {
                         className="w-full px-3 py-2 border border-zinc-300 dark:border-zinc-600 rounded-lg bg-white dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100"
                       >
                         <option value="">Select budget range</option>
-                        <option value="₹5,000 - ₹15,000">₹15,000 - ₹25,000</option>
+                        <option value="₹3,000 - ₹15,000">₹3,000 - ₹15,000</option>
                         <option value="₹15,000 - ₹25,000">₹15,000 - ₹25,000</option>
                         <option value="₹25,000 - ₹50,000">₹25,000 - ₹50,000</option>
                         <option value="₹50,000 - ₹1,00,000">₹50,000 - ₹1,00,000</option>
