@@ -28,7 +28,7 @@ const services = [
     title: "Modern Web Applications",
     subtitle: "Scalable & Future-Ready",
     description:
-      "Build powerful web applications that grow with your business. Using cutting-edge technologies like React, Next.js, and AI integration.",
+      "Build powerful web applications that grow with your business. Using cutting-edge technologies like React, Next.js and AI integration.",
     features: [
       "React.js & Next.js Development",
       "Real-time Features & APIs",
@@ -58,7 +58,7 @@ const services = [
     title: "Website Redesign & Optimization",
     subtitle: "Transform Your Digital Presence",
     description:
-      "Breathe new life into your existing website. I'll modernize your design, boost performance, and improve user experience.",
+      "Breathe new life into your existing website. I'll modernize your design, boost performance and improve user experience.",
     features: ["Complete Visual Overhaul", "Speed & Performance Boost", "Mobile Optimization", "SEO Improvements"],
     popular: false,
     results: "Average 3x improvement in page speed",
@@ -68,7 +68,7 @@ const services = [
     title: "Maintenance & Support",
     subtitle: "Keep Your Site Running Smoothly",
     description:
-      "Focus on your business while I handle the technical stuff. Ongoing maintenance, updates, and 24/7 monitoring included.",
+      "Focus on your business while I handle the technical stuff. Ongoing maintenance, updates and 24/7 monitoring included.",
     features: ["Regular Security Updates", "Performance Monitoring", "Content Updates & Changes", "Technical Support"],
     popular: false,
     results: "99.9% uptime guarantee",
@@ -219,7 +219,7 @@ export function ServicesSection() {
               </Link>
             </Button>
             <Button variant="outline" size="lg" className="px-8 py-4">
-              View Portfolio
+              <Link href="#hero">View Portfolio</Link>
             </Button>
           </div>
         </LazySection>
