@@ -7,14 +7,15 @@ import { Button } from "@/components/ui/button"
 import { Moon, Sun, Menu, X } from "lucide-react"
 
 const navigation = [
-  { name: "Home", href: "#home" },
-  { name: "Skills", href: "#skills" },
-  { name: "Experience", href: "#experience" },
-  { name: "Services", href: "#services" },
-  { name: "Projects", href: "#projects" },
-  { name: "Blog", href: "#blog" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/#home" },
+  { name: "Skills", href: "/#skills" },
+  { name: "Experience", href: "/#experience" },
+  { name: "Services", href: "/#services" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Blog", href: "/#blog" },
+  { name: "Contact", href: "/#contact" },
 ]
+
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
