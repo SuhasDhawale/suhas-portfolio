@@ -50,12 +50,11 @@ export function HeroSection() {
                 </h2>
 
                 <p className="text-xl text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl">
-                  Transform your business with{" "}
-                  <span className="font-semibold text-blue-600 dark:text-blue-400">modern web solutions</span> that
-                  drive results. From concept to launch, I create websites that don't just look amazing—they
+                  I help businesses grow with{" "}
+                  <span className="font-semibold text-blue-600 dark:text-blue-400">high-converting, modern web solutions.</span> From concept to launch, I build websites that don’t just look stunning — they deliver real results like
                   <span className="font-semibold text-purple-600 dark:text-purple-400">
                     {" "}
-                    generate leads and boost revenue
+                    more leads, more customers and more revenue.
                   </span>
                   .
                 </p>
