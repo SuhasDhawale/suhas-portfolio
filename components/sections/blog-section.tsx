@@ -240,11 +240,11 @@ export function BlogSection() {
               Want to Stay Updated?
             </h3>
             <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-6 max-w-2xl mx-auto">
-              Get notified when I publish new stories about development, entrepreneurship, and lessons learned from building real projects.
+              Get notified when I publish new stories about development, entrepreneurship and lessons learned from building real projects.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white px-8 py-4">
-                <Link href="#blog">Subscribe to Newsletter</Link> 
+                <Link href="https://x.com/suhhasx" target="_blank">Follow on Twitter</Link>
               </Button>
               <Button variant="outline" size="lg" className="px-8 py-4">
                 <Link href="https://www.linkedin.com/in/suhasdhawale" target="_blank">Follow on LinkedIn</Link>

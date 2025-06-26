@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Linkedin, Mail, Heart } from "lucide-react"
+import { Github, Linkedin, Mail, Heart, X } from "lucide-react"
 
 export function Footer() {
   return (
@@ -29,6 +29,13 @@ export function Footer() {
               >
                 <Linkedin className="h-6 w-6" />
               </Link>
+              <Link
+                              href="https://x.com/suhhasx"
+                              target="_blank"
+                              className="p-4 rounded-xl bg-zinc-100 dark:bg-zinc-800/50 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-700/50 transition-all duration-300 hover:scale-110"
+                            >
+                              <X className="h-6 w-6" />
+                            </Link>
               <Link
                 href="mailto:suhasdhawale57@gmail.com"
                 className="p-3 rounded-xl bg-zinc-800/50 text-zinc-400 hover:text-zinc-100 hover:bg-zinc-700/50 transition-all duration-300"

@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Download, Github, Linkedin, Mail, Star, Zap } from "lucide-react"
+import { ArrowRight, Download, Github, Linkedin, Mail, Star, Twitter, X, Zap } from "lucide-react"
 import Link from "next/link"
 import { LazyImage, LazySection } from "@/components/lazy-image"
 
@@ -132,6 +132,13 @@ export function HeroSection() {
                 className="p-4 rounded-xl bg-zinc-100 dark:bg-zinc-800/50 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-700/50 transition-all duration-300 hover:scale-110"
               >
                 <Linkedin className="h-6 w-6" />
+              </Link>
+              <Link
+                href="https://x.com/suhhasx"
+                target="_blank"
+                className="p-4 rounded-xl bg-zinc-100 dark:bg-zinc-800/50 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-700/50 transition-all duration-300 hover:scale-110"
+              >
+                <X className="h-6 w-6" />
               </Link>
               <Link
                 href="mailto:suhasdhawale57@gmail.com"

@@ -20,6 +20,7 @@ import {
   Star,
   Zap,
   Shield,
+  X,
 } from "lucide-react"
 import { LazySection } from "@/components/lazy-image"
 
@@ -233,12 +234,12 @@ export function ContactSection() {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://x.com/suhhasx"
                   target="_blank"
                   className="w-12 h-12 bg-blue-400 rounded-xl flex items-center justify-center text-white hover:bg-blue-500 transition-colors hover:scale-110 transform duration-200"
                   rel="noreferrer"
                 >
-                  <Twitter className="w-5 h-5" />
+                  <X className="w-5 h-5" />
                 </a>
               </div>
             </div>
