@@ -74,7 +74,7 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
             className="inline-flex items-center text-white/80 hover:text-white mb-8 transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
-            Back to Blog
+            Back to Portfolio
           </Link>
 
           <div className="text-white">
