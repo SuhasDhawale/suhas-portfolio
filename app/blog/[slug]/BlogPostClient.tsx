@@ -188,7 +188,7 @@ export default function BlogPostClient({ params }: { params: { slug: string } })
                       GitHub →
                     </Link>
                     <Link
-                      href="mailto:suhasdhawale57@gmail.com"
+                      href="mailto:suhhas.codes@gmail.com"
                       className="text-purple-600 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300 font-medium transition-colors"
                     >
                       Email →

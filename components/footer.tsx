@@ -37,7 +37,7 @@ export function Footer() {
                               <X className="h-6 w-6" />
                             </Link>
               <Link
-                href="mailto:suhasdhawale57@gmail.com"
+                href="mailto:suhhas.codes@gmail.com"
                 className="p-3 rounded-xl bg-zinc-800/50 text-zinc-400 hover:text-zinc-100 hover:bg-zinc-700/50 transition-all duration-300"
               >
                 <Mail className="h-6 w-6" />
@@ -50,7 +50,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <Link
-                  href="#home"
+                  href="/#home"
                   className="text-zinc-400 hover:text-zinc-100 transition-colors duration-300 text-base"
                 >
                   Home
@@ -58,7 +58,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="#skills"
+                  href="/#skills"
                   className="text-zinc-400 hover:text-zinc-100 transition-colors duration-300 text-base"
                 >
                   Skills
@@ -66,7 +66,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="#experience"
+                  href="/#experience"
                   className="text-zinc-400 hover:text-zinc-100 transition-colors duration-300 text-base"
                 >
                   Experience
@@ -74,7 +74,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="#projects"
+                  href="/#projects"
                   className="text-zinc-400 hover:text-zinc-100 transition-colors duration-300 text-base"
                 >
                   Projects
@@ -82,7 +82,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="#contact"
+                  href="/#contact"
                   className="text-zinc-400 hover:text-zinc-100 transition-colors duration-300 text-base"
                 >
                   Contact

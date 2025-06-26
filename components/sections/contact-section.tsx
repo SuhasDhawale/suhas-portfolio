@@ -29,8 +29,8 @@ const contactMethods = [
     icon: <Mail className="w-6 h-6" />,
     title: "Email Me",
     description: "Get a response within 2 hours",
-    value: "suhasdhawale57@gmail.com",
-    action: "mailto:suhasdhawale57@gmail.com",
+    value: "suhhas.codes@gmail.com",
+    action: "mailto:suhhas.codes@gmail.com",
     color: "bg-blue-500",
   },
   {
