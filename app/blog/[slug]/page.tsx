@@ -1,16 +1,15 @@
 import type { Metadata } from "next"
-import { blogPosts } from "./data"
+import { blogPosts } from "@/lib/blogData"
 import BlogPostClient from "./BlogPostClient"
 import { notFound } from "next/navigation"
 
-// Generate SEO metadata
+// Generate metadata for SEO
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const slug = decodeURIComponent(params.slug?.toLowerCase() || "")
-  const post = Object.entries(blogPosts).find(([key]) => key.toLowerCase() === slug)?.[1]
+  const post = blogPosts[params.slug as keyof typeof blogPosts]
 
   if (!post) {
     return {
-      title: "Blog Post Not Found | Suhas Dhawale",
+      title: "Blog Post Not Found",
       description: "The requested blog post could not be found.",
     }
   }
@@ -44,19 +43,20 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 }
 
-// Generate all static paths
+// Generate static paths for all blog posts
 export async function generateStaticParams() {
-  return Object.keys(blogPosts).map((slug) => ({ slug }))
+  return Object.keys(blogPosts).map((slug) => ({
+    slug,
+  }))
 }
 
-// Main server-side wrapper
 export default function BlogPost({ params }: { params: { slug: string } }) {
-  const slug = decodeURIComponent(params.slug?.toLowerCase() || "")
-  const post = Object.entries(blogPosts).find(([key]) => key.toLowerCase() === slug)?.[1]
+  // Check if the post exists
+  const post = blogPosts[params.slug as keyof typeof blogPosts]
 
   if (!post) {
     notFound()
   }
 
-  return <BlogPostClient params={{ slug }} />
+  return <BlogPostClient params={params} />
 }

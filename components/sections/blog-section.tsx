@@ -12,7 +12,7 @@ const blogPosts = [
     title: "My Journey from College Student to Full-Stack Developer",
     excerpt:
       "How I transformed from a curious computer science student to building real-world applications that solve actual problems. The challenges, breakthroughs, and lessons learned along the way.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/images/coding.png?height=200&width=400",
     date: "2024-12-20",
     readTime: "8 min read",
     category: "Personal Story",
@@ -24,7 +24,7 @@ const blogPosts = [
     title: "Building My First SaaS: Lessons from the Trenches",
     excerpt:
       "The real story behind creating my AI-powered SaaS platform. From the initial idea to handling 500+ users, here's what I wish I knew before starting.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/images/saasblog.jpg?height=200&width=400",
     date: "2024-12-15",
     readTime: "12 min read",
     category: "Entrepreneurship",
@@ -36,7 +36,7 @@ const blogPosts = [
     title: "Why I Chose React Over Vue (And You Should Too)",
     excerpt:
       "After building projects with both frameworks, here's my honest comparison. Spoiler: it's not just about the syntax, but the ecosystem and job opportunities.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/images/react-vue.jpg?height=200&width=400",
     date: "2024-12-10",
     readTime: "6 min read",
     category: "Web Development",
@@ -48,7 +48,7 @@ const blogPosts = [
     title: "The Internship That Changed Everything",
     excerpt:
       "How my 6-month internship at ICEICO Technologies taught me more than 4 years of college. Real projects, real deadlines, and real growth.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/images/intern.jpg?height=200&width=400",
     date: "2024-12-05",
     readTime: "7 min read",
     category: "Career",
@@ -60,7 +60,7 @@ const blogPosts = [
     title: "Freelancing as a Student: My First ₹50,000 Month",
     excerpt:
       "From charging ₹5,000 for a website to earning ₹50,000 in a month. The pricing strategies, client management tips, and mindset shifts that made it possible.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/images/money.jpg?height=200&width=400",
     date: "2024-11-28",
     readTime: "10 min read",
     category: "Freelancing",
@@ -72,7 +72,7 @@ const blogPosts = [
     title: "The AI Tools That 10x My Productivity",
     excerpt:
       "ChatGPT is just the beginning. Here are the AI tools I use daily to code faster, design better, and manage projects more efficiently as a solo developer.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/images/ai.jpg?height=200&width=400",
     date: "2024-11-20",
     readTime: "5 min read",
     category: "Productivity",

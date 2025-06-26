@@ -1,4 +1,4 @@
-"use client"
+
 
 export const blogPosts = {
   "my-developer-journey": {
@@ -166,9 +166,9 @@ Your journey starts with a single line of code. What will yours be?
 
 ---
 
-*Want to connect and share your own journey? Find me on [LinkedIn](https://www.linkedin.com/in/suhasdhawale) or [email me](mailto:suhasdhawale57@gmail.com). I love hearing from fellow developers and students!*
+*Want to connect and share your own journey? Get in touch with me through below mentioned links. I love hearing from fellow developers and students!*
     `,
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/images/coding.png?height=400&width=800",
     date: "2024-12-20",
     readTime: "8 min read",
     category: "Personal Story",
@@ -383,9 +383,9 @@ Your SaaS journey starts with a single line of code. What will yours be?
 
 ---
 
-*Building your own SaaS or have questions about my journey? I'd love to connect and help however I can. Find me on [LinkedIn](https://www.linkedin.com/in/suhasdhawale) or [email me](mailto:suhasdhawale57@gmail.com).*
+*Building your own SaaS or have questions about my journey? I'd love to connect and help however I can. Get in touch with me through below mentioned links.*
     `,
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/images/saasblog.jpg?height=400&width=800",
     date: "2024-12-15",
     readTime: "12 min read",
     category: "Entrepreneurship",
@@ -524,9 +524,9 @@ The web needs more builders, not more framework debates.
 
 ---
 
-*What's your experience with React vs Vue? I'd love to hear your perspective! Connect with me on [LinkedIn](https://www.linkedin.com/in/suhasdhawale) or [email me](mailto:suhasdhawale57@gmail.com).*
+*What's your experience with React vs Vue? I'd love to hear your perspective! Connect with me through below mentioned links.*
     `,
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/images/react-vue.jpg?height=400&width=800",
     date: "2024-12-10",
     readTime: "6 min read",
     category: "Web Development",
@@ -1259,11 +1259,11 @@ Your internship is what you make of it. Be curious, be proactive, and be willing
 
 ---
 
-*Currently looking for internship opportunities or want to share your own internship experience? I'd love to connect and hear your story! Find me on [LinkedIn](https://www.linkedin.com/in/suhasdhawale) or [email me](mailto:suhasdhawale57@gmail.com).*
+*Currently looking for internship opportunities or want to share your own internship experience? I'd love to connect and hear your story! Find me through below mentioned links.*
 
 *Want to see the projects I built during my internship? Check out my portfolio to see the real-world applications and the lessons learned from each one.*
     `,
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/images/intern.jpg?height=400&width=800",
     date: "2024-12-05",
     readTime: "7 min read",
     category: "Career",
@@ -1887,11 +1887,11 @@ You don't need to be an expert to start freelancing. You just need to be willing
 
 ---
 
-*Want to connect and share your own freelancing journey? Find me on [LinkedIn](https://www.linkedin.com/in/suhasdhawale) or [email me](mailto:suhasdhawale57@gmail.com).*
+*Want to connect and share your own freelancing journey? Find me through below mentioned links.*
 
 *Want to see the websites I've built for clients? Check out my portfolio to see the real-world applications and the lessons learned from each one.*
     `,
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/images/money.jpg?height=400&width=800",
     date: "2024-12-01",
     readTime: "9 min read",
     category: "Freelancing",
@@ -1900,4 +1900,150 @@ You don't need to be an expert to start freelancing. You just need to be willing
     excerpt:
       "How I went from charging ₹5,000 for a basic website to earning ₹50,000 in a single month while still being a college student. The challenges, the lessons, and the systems that made it possible.",
   },
+  "ai-tools-productivity": {
+  title: "The AI Tools That 10x My Productivity",
+  excerpt:
+    "ChatGPT is just the beginning. Here are the AI tools I use daily to code faster, design better, and manage projects more efficiently as a solo developer.",
+  content: `
+# The AI Tools That 10x My Productivity as a Solo Developer
+
+As a solo developer balancing design, code, marketing, and client communication, I used to feel overwhelmed. That changed when I integrated AI tools into every part of my workflow. Here's the complete breakdown of the tools I use — and how they’ve helped me save time, avoid burnout, and scale smarter.
+
+---
+
+## 🚀 1. ChatGPT — My 24/7 Coding Assistant
+
+Whether I need help writing a regular expression, refactoring TypeScript, or brainstorming blog titles — ChatGPT is always the first place I go.
+
+### How I Use It:
+- Debugging weird bugs at 1 AM
+- Writing test cases
+- Explaining low-level concepts
+- Brainstorming creative copy for landing pages
+
+\`\`\`javascript
+// Example: refactoring messy code with GPT
+const messyCode = (x) => {if(x>10){return true}else{return false}}
+
+const cleanCode = (x) => x > 10;
+\`\`\`
+
+### Bonus Tip:
+Use **Custom GPTs** for different contexts like “Client Email Assistant” or “Landing Page Writer”.
+
+---
+
+## 🎨 2. Figma AI — Smart Design, Faster
+
+As someone who isn’t a full-time designer, the new Figma AI tools have been game-changers.
+
+### What It Helps Me Do:
+- Instantly generate UI ideas from prompts
+- Auto-align and clean messy layouts
+- Generate color palettes based on theme
+
+I can now mock up an MVP landing page in **under 30 minutes**, which used to take 2+ hours.
+
+---
+
+## 💼 3. Notion AI — Smart Docs + PM
+
+Notion AI is more than just note-taking — I use it to:
+- Summarize client meeting notes
+- Draft blog posts (like this one!)
+- Organize feature specs into simple project plans
+- Auto-fill TODO lists based on context
+
+\`\`\`
+Prompt: “Summarize this 1-hour meeting into action items”
+Output: 5 clear bullet points + deadlines
+\`\`\`
+
+---
+
+## 💬 4. GrammarlyGO + Chat
+
+Clear, professional writing matters when sending proposals, writing documentation, or answering client queries.
+
+GrammarlyGO helps me:
+- Polish my tone (especially when frustrated)
+- Reword responses politely
+- Draft professional emails in seconds
+
+---
+
+## 🔍 5. Perplexity AI — Fast, Source-Based Research
+
+When I need **accurate answers with sources**, Perplexity is better than Googling. It's fast and focused.
+
+Example:
+> “Compare Tailwind CSS vs Bootstrap for SaaS dashboards”
+
+Perplexity gives me a real-time answer **with source links**, not just SEO spam.
+
+---
+
+## 🧩 6. GitHub Copilot — Code Completion Superpowers
+
+Copilot completes whole functions while I’m still thinking. It's like autocomplete on steroids.
+
+### Where It Shines:
+- Writing repetitive logic
+- Generating form validation
+- Filling in CRUD boilerplate
+
+\`\`\`tsx
+// Copilot writes the entire form validation logic:
+function validateForm(formData) {
+  const errors = {};
+  if (!formData.email.includes("@")) errors.email = "Invalid email";
+  // ...
+  return errors;
+}
+\`\`\`
+
+---
+
+## ⏱️ 7. Tability + Motion — Time Management & Focus
+
+I use AI-driven tools like **Motion** to auto-schedule tasks based on urgency and availability.
+
+Combined with **Tability**, I set weekly goals and track habits with minimal friction.
+
+---
+
+## 🧠 Productivity Stack Summary
+
+| Tool           | Purpose                     | Why I Use It |
+|----------------|------------------------------|--------------|
+| ChatGPT        | Coding, copy, communication  | 24/7 help |
+| Figma AI       | Fast UI design               | Beautiful results, fast |
+| Notion AI      | Docs, plans, notes           | Central brain |
+| GrammarlyGO    | Writing + emails             | Clear, confident tone |
+| GitHub Copilot | Code generation              | Auto-dev turbo |
+| Perplexity     | Fast research                | Source-backed answers |
+| Motion         | AI time blocking             | Better focus |
+
+---
+
+## 💡 Final Thoughts
+
+AI tools don’t replace me — they amplify me.
+
+They don’t just save me time — they help me **do better work**, with **less friction**, and more **creativity**. Whether you’re a freelancer, student, or startup founder — embracing AI is no longer optional.
+
+The only question is: **How fast can you adopt it before your competitors do?**
+
+---
+
+*Which AI tools are you using daily? DM me — I’d love to hear what’s working for you!*
+  `,
+  image: "/ai.jpg",
+  date: "2024-11-20",
+  readTime: "5 min read",
+  category: "Productivity",
+  views: "2.7k",
+  author: "Suhas Dhawale",
+}
+
 }

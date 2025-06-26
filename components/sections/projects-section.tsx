@@ -20,7 +20,7 @@ const projects = [
     category: "Frontend",
     github: "https://github.com/SuhasDhawale",
     demo: "https://docbot.in/",
-    featured: false,
+    featured: true,
     results: {
       metric1: { value: "1000+", label: "Patients Served" },
       metric2: { value: "50+", label: "Health Parameters Tracked" },
@@ -39,7 +39,7 @@ const projects = [
     category: "Full-stack",
     github: "https://github.com/SuhasDhawale",
     demo: "https://sharda.abvideopro.com/",
-    featured: false,
+    featured: true,
     results: {
       metric1: { value: "300%", label: "Sales Increase" },
       metric2: { value: "5000+", label: "Products Sold" },
@@ -49,16 +49,35 @@ const projects = [
     tags: ["E-commerce", "High Performance", "Sales Booster"],
   },
   {
+  title: "Bella Vista Restaurant Website",
+  subtitle: "Modern Italian Dining Landing Page",
+  description:
+    "A responsive and elegant landing page for an Italian restaurant built using modern web technologies. Includes sections for menu, reservation, gallery and contact — with a focus on refined layout, usability and brand feel.",
+  image: "/images/cafe.png?width=711&height=400",
+  technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+  category: "Full-stack / Frontend",
+  github: "https://github.com/SuhasDhawale/cafe-restro-website-demo",
+  demo: "https://bellavistarestaurant.netlify.app/",
+  featured: false,
+  results: {
+    metric1: { value: "100%", label: "Mobile Responsive" },
+    metric2: { value: "6+", label: "Custom UI Sections" },
+    metric3: { value: "0", label: "Framework Overhead" },
+  },
+  clientQuote: "A sleek and modern digital presence for fine dining — minimal, elegant and built for conversion.",
+  tags: ["Next.js", "Tailwind", "Restaurant Site", "Landing Page"],
+},
+  {
     title: "AI-Powered SaaS Platform",
     subtitle: "Complete Business Solution",
     description:
       "Revolutionary SaaS platform featuring AI-driven video generation, image creation, music composition and intelligent chat. Built for scalability and user engagement.",
-    image: "/images/ai-saas1.jpg?height=400&width=600",
+    image: "/images/ai-saas.png?height=400&width=600",
     technologies: ["Next.js", "React", "TypeScript", "AI APIs", "Stripe", "Clerk"],
     category: "Full-stack",
     github: "https://github.com/SuhasDhawale/Fusion-AI",
     demo: "https://drive.google.com/file/d/1mj54jMZmJ8eu17ZVh69MsDKbDkmXZVj1/view",
-    featured: true,
+    featured: false,
     results: {
       metric1: { value: "4+", label: "AI Tools Integrated" },
       metric2: { value: "100%", label: "Responsive UI/UX" },
@@ -78,7 +97,7 @@ const projects = [
     category: "Frontend",
     github: "https://github.com/SuhasDhawale/Ai-Resume-Builder",
     demo: "https://airesumebuilder-suhas.netlify.app/",
-    featured: true,
+    featured: false,
     results: {
       metric1: { value: "100+", label: "Resumes Created" },
       metric2: { value: "85%", label: "Interview Rate" },
@@ -87,6 +106,45 @@ const projects = [
     clientQuote: "This project helped me learn to build scalable AI tools and solve real-world problems effectively.",
     tags: ["AI-Powered", "Career Tool", "High Conversion"],
   },
+  {
+  title: "💘 Do You Love Me?",
+  subtitle: "Playful Animated Webpage",
+  description:
+    "A lighthearted interactive page built with pure HTML & CSS. It playfully asks 'Do you love me?' — and always responds with a warm, loving message no matter your answer. Designed to make people smile.",
+  image: "/images/do-you-love-me.png?width=711&height=400", 
+  technologies: ["HTML5", "CSS3"],
+  category: "Frontend / Fun Project",
+  github: "https://github.com/SuhasDhawale/Do-You-Love-Me",
+  demo: "https://doyoulove-me.netlify.app/",  
+  featured: false,
+  results: {
+    metric1: { value: "100%", label: "Pure CSS/HTML" },
+    metric2: { value: "5s", label: "Avg. Smile Time 😄" },
+    metric3: { value: "∞", label: "Love Loop" },
+  },
+  clientQuote: "Made with a lot of love just to make someone smile. 💕",
+  tags: ["Creative", "Interactive", "CSS Animation", "Just for Fun"],
+},
+{
+  title: "Kids Quizzland 🌟",
+  subtitle: "Fun Learning Platform for Children",
+  description:
+    "Kids Quizzland is an interactive, educational quiz website designed for kids aged 6–15. It offers a playful way to improve knowledge in Math, English and General Knowledge through fun quizzes, stickers and responsive layouts. Built with a focus on engagement and accessibility.",
+  image: "/images/quiz.png?width=711&height=400",
+  technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+  category: "Frontend / Educational",
+  github: "https://github.com/SuhasDhawale/icp-8.0-html-css-js-group-project-3",
+  demo: "https://kids-quizzland.netlify.app",
+  featured: false,
+  results: {
+    metric1: { value: "3+", label: "Fun Games Added" },
+    metric2: { value: "100%", label: "Mobile-Friendly" },
+    metric3: { value: "4", label: "Knowledge Categories" },
+  },
+  clientQuote:
+    "This platform makes learning fun and exciting for kids. It’s colorful, interactive and built with love for education.",
+  tags: ["Education", "Quizzes", "Fun Learning", "Kids", "Interactive"],
+},
 ]
 
 const categories = ["All Projects", "Full-stack", "Frontend", "AI-Powered"]
