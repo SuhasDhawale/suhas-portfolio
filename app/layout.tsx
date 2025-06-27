@@ -7,6 +7,7 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { BackToTop } from "@/components/back-to-top"
 import { IntelligentAIChatWidget } from "@/components/ai-chat/intelligent-ai-chat"
+import OnekoLoader from "@/components/oneko-loader" 
 
 const inter = Inter({
   subsets: ["latin"],
@@ -42,6 +43,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${sora.variable} font-sora antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange={false}>
+          <OnekoLoader /> {/* 🐱 The cat lives here */}
           <div className="relative min-h-screen bg-white dark:bg-zinc-950">
             <div className="fixed inset-0 bg-gradient-to-br from-zinc-50 via-white to-zinc-100 dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950 pointer-events-none" />
             <div className="relative z-10">

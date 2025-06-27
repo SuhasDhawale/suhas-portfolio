@@ -1,5 +1,6 @@
 "use client"
 
+import CatToggleButton from "@/components/cat-toggle-button" // ✅ [ADDED]
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { useTheme } from "next-themes"
@@ -15,7 +16,6 @@ const navigation = [
   { name: "Blog", href: "/#blog" },
   { name: "Contact", href: "/#contact" },
 ]
-
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -44,8 +44,8 @@ export function Navbar() {
             Suhas Dhawale
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          {/* ✅ Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-6">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -55,18 +55,21 @@ export function Navbar() {
                 {item.name}
               </Link>
             ))}
+
+            <CatToggleButton /> {/* ✅ ADDED: Cat toggle button */}
+
             <Button
               variant="ghost"
               size="icon"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="ml-6 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-xl"
+              className="ml-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-xl"
             >
               <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
               <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             </Button>
           </div>
 
-          {/* Mobile menu button */}
+          {/* ✅ Mobile menu button */}
           <div className="md:hidden flex items-center space-x-3">
             <Button
               variant="ghost"
@@ -88,7 +91,7 @@ export function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* ✅ Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="md:hidden huly-card mt-4 p-6 mb-4">
             <div className="flex flex-col space-y-6">
@@ -102,6 +105,7 @@ export function Navbar() {
                   {item.name}
                 </Link>
               ))}
+              <CatToggleButton /> {/* ✅ Optional: Cat toggle in mobile menu too */}
             </div>
           </div>
         )}
