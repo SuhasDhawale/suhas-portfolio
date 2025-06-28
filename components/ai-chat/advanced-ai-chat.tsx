@@ -111,7 +111,7 @@ export function AdvancedAIChatWidget() {
     }
 
     if (message.includes("hire") || message.includes("available") || message.includes("job")) {
-      return "Suhas is actively seeking new opportunities and is available for both full-time positions and freelance projects. With his strong technical foundation, practical experience, and passion for modern web technologies, he'd be a valuable addition to any development team. You can reach him at suhasdhawale57@gmail.com or +91-8766775823."
+      return "Suhas is actively seeking new opportunities and is available for both full-time positions and freelance projects. With his strong technical foundation, practical experience, and passion for modern web technologies, he'd be a valuable addition to any development team. You can reach him at suhhas.codes@gmail.com or +91-8766775823."
     }
 
     // Default intelligent response

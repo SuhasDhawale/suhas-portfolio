@@ -58,7 +58,7 @@ export function AIChatWidget() {
 
     // Contact related
     if (message.includes("contact") || message.includes("hire") || message.includes("email")) {
-      return "You can reach Suhas at suhasdhawale57@gmail.com or call him at +91-8766775823. He's also active on GitHub (SuhasDhawale) and LinkedIn. He's currently available for new opportunities!"
+      return "You can reach Suhas at suhhas.codes@gmail.com or call him at +91-8766775823. He's also active on GitHub (SuhasDhawale) and LinkedIn. He's currently available for new opportunities!"
     }
 
     // Education related
