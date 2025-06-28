@@ -56,7 +56,7 @@ export function IntelligentAIChatWidget() {
       title: "Full Stack Developer & Web Designer",
       location: "Nagpur, Maharashtra, India",
       phone: "+91-8766775823",
-      email: "suhasdhawale57@gmail.com",
+      email: "suhhas.codes@gmail.com",
       github: "https://github.com/SuhasDhawale",
       linkedin: "https://www.linkedin.com/in/suhasdhawale",
 

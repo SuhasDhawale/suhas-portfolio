@@ -20,7 +20,7 @@ export function AdvancedAIChatWidget() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      text: "Hello! I'm Suhas's advanced AI assistant powered by Hugging Face. I can provide detailed information about his portfolio, skills, and projects. How can I help you today?",
+      text: "Hello! I'm Suhas's advanced AI assistant powered by Hugging Face. I can provide detailed information about his portfolio, skills and projects. How can I help you today?",
       sender: "ai",
       timestamp: new Date(),
     },
@@ -89,8 +89,8 @@ export function AdvancedAIChatWidget() {
     4. Restin Mattress E-Commerce - Full e-commerce platform with shopping cart
     
     Experience: Web Developer Intern at ICEICO Technologies (Jan-Jun 2025)
-    Education: B.Tech CSE from G H Raisoni College, Nagpur (CGPA: 7.83/10)
-    Contact: suhasdhawale57@gmail.com, +91-8766775823
+    Education: B.Tech CSE from G H Raisoni College, Nagpur (CGPA: 8/10)
+    Contact: suhhas.codes@gmail.com, +91-8766775823
     `
 
     // AI-style contextual responses
