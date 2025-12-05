@@ -11,6 +11,26 @@ import { LazyImage, LazySection } from "@/components/lazy-image"
 
 const projects = [
   {
+  title: "Jaghumeiya Travel",
+  subtitle: "Premium Travel & Tour Booking Platform",
+  description:
+    "A modern travel website built for Jaghumeiya Travel — offering global tour packages, curated itineraries and expert travel guidance. The platform showcases destinations, services and travel benefits with a clean, trustworthy and conversion-focused design.",
+  image: "/images/jaghumeiya.png?height=400&width=600",
+  technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+  category: "Frontend",
+  github: "https://github.com/SuhasDhawale",
+  demo: "https://jaghumeiya.com/",
+  featured: true,
+  results: {
+    metric1: { value: "50+ Destinations", label: "Worldwide Coverage" },
+    metric2: { value: "20,000+ Clients", label: "Happy Travelers Served" },
+    metric3: { value: "24/7 Support", label: "Always Available Assistance" },
+  },
+  clientQuote:
+    "The website beautifully represents our brand and services. It feels premium, loads fast, and has increased customer inquiries significantly.",
+  tags: ["Travel", "Service Website", "Product Showcase", "Responsive Design"],
+},
+  {
     title: "Healthcare Platform",
     subtitle: "DocBot Medical Solution",
     description:
