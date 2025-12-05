@@ -87,9 +87,9 @@ const services = [
 
 const testimonials = [
   {
-    quote: "Suhas transformed our online presence completely. Our website now generates 3x more leads!",
-    author: "Dinesh Kejariwal",
-    company: "CEO, Restin Industries",
+    quote: "Suhhas transformed our online presence completely. Our website now generates 3x more leads!",
+    author: "Yash Tiwari",
+    company: "Co-Founder, Jaghumeiya Travel",
   },
   {
     quote: "Professional, fast and delivered exactly what we needed. Highly recommend!",

@@ -14,7 +14,7 @@ const projects = [
   title: "Jaghumeiya Travel",
   subtitle: "Premium Travel & Tour Booking Platform",
   description:
-    "A modern travel website built for Jaghumeiya Travel — offering global tour packages, curated itineraries and expert travel guidance. The platform showcases destinations, services and travel benefits with a clean, trustworthy and conversion-focused design.",
+    "A modern travel website built for Jaghumeiya Travel — offering global tour packages, curated itineraries and expert travel guidance. The platform showcases destinations, services and travel benefits with a clean and trustworthy design.",
   image: "/images/jaghumeiya.png?height=400&width=600",
   technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   category: "Frontend",
@@ -23,7 +23,7 @@ const projects = [
   featured: true,
   results: {
     metric1: { value: "50+ Destinations", label: "Worldwide Coverage" },
-    metric2: { value: "20,000+ Clients", label: "Happy Travelers Served" },
+    metric2: { value: "5,000+ Clients", label: "Happy Travelers Served" },
     metric3: { value: "24/7 Support", label: "Always Available Assistance" },
   },
   clientQuote:
@@ -126,25 +126,6 @@ const projects = [
     clientQuote: "This project helped me learn to build scalable AI tools and solve real-world problems effectively.",
     tags: ["AI-Powered", "Career Tool", "High Conversion"],
   },
-  {
-  title: "💘 Do You Love Me?",
-  subtitle: "Playful Animated Webpage",
-  description:
-    "A lighthearted interactive page built with pure HTML & CSS. It playfully asks 'Do you love me?' — and always responds with a warm, loving message no matter your answer. Designed to make people smile.",
-  image: "/images/do-you-love-me.png?width=711&height=400", 
-  technologies: ["HTML5", "CSS3"],
-  category: "Frontend",
-  github: "https://github.com/SuhasDhawale/Do-You-Love-Me",
-  demo: "https://doyoulove-me.netlify.app/",  
-  featured: false,
-  results: {
-    metric1: { value: "100%", label: "Pure CSS/HTML" },
-    metric2: { value: "5s", label: "Avg. Smile Time 😄" },
-    metric3: { value: "∞", label: "Love Loop" },
-  },
-  clientQuote: "Made with a lot of love just to make someone smile. 💕",
-  tags: ["Creative", "Interactive", "CSS Animation", "Just for Fun"],
-},
 {
   title: "Kids Quizzland 🌟",
   subtitle: "Fun Learning Platform for Children",
