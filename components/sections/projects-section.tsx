@@ -27,7 +27,7 @@ const projects = [
     metric3: { value: "24/7 Support", label: "Always Available Assistance" },
   },
   clientQuote:
-    "The website beautifully represents our brand and services. It feels premium, loads fast, and has increased customer inquiries significantly.",
+    "The website beautifully represents our brand and services. It feels premium, loads fast and has increased customer inquiries significantly.",
   tags: ["Travel", "Service Website", "Product Showcase", "Responsive Design"],
 },
   {
