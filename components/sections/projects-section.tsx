@@ -19,7 +19,7 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     category: "Frontend",
     github: "https://github.com/SuhasDhawale",
-    demo: "https://docbot.in/",
+    demo: "https://web.docbot.in/",
     featured: true,
     results: {
       metric1: { value: "1000+", label: "Patients Served" },
